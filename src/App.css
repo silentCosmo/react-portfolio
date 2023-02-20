@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  background-color: #EEEEEE;
+  width: 100%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+}
+::-webkit-scrollbar{
+  width: 7px;
+}
+::-webkit-scrollbar-thumb{
+  background: #4ecca2ab;
+}
+::-webkit-scrollbar-track-piece{
+  background: #101D31;
+}
