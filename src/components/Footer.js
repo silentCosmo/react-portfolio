@@ -12,10 +12,10 @@ function Footer() {
   return (
     <div className='footer'>
         <div className="socialMedia">
-        <TwitterIcon/>
-        <FacebookIcon/>
-        <InstagramIcon/>
-        <LinkedInIcon/>
+        <a href="https://twitter.com/silentcosmo_"><TwitterIcon/></a>
+        <a href="https://www.facebook.com/ngkudallur"><FacebookIcon/></a>
+        <a href="https://www.instagram.com/silentcosmo_"><InstagramIcon/></a>
+        <a href="https://www.linkedin.com/in/silentcosmo"><LinkedInIcon/></a>
         {/* <GitHubIcon/> */}
         </div>
         <p>&copy; 2023 silentCosmo</p>

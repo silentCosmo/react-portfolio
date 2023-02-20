@@ -46,7 +46,10 @@
   .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: white;
+    color: #b7c4bf;
+  }
+  .prompt svg:hover {
+    color: #c2e7d9;
   }
   
   .skills {
