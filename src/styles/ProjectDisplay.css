@@ -6,15 +6,27 @@
     align-items: center;
     flex-direction: column;
   }
+  a{
+    text-decoration: none;
+  }
+  .project a p {
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    color: darkslategray;
+    opacity: 70%;
+  }
   
   .project h1 {
     margin-top: 20px;
+    margin-bottom: 5px;
     color: #192333;
     font-size: 35px;
   }
   .project img {
     width: 700px;
-    border-radius: 10px;
+    border-radius: 5px;
     
   }
   
@@ -26,4 +38,10 @@
   .project svg {
     font-size: 60px;
     color: #192333;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .project img {
+      width: 23rem;
+    }
   }

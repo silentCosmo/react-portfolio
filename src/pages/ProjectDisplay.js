@@ -11,13 +11,14 @@ function ProjectDisplay() {
     <div className='project'>
         <h1>{project.name}</h1>
         <a href={project.url}>
+          <p>click to view project</p>
         <img src={project.image} alt="Project_View" className="img" />
         </a>
         
         <p>
           <b>Skills: </b>
           {project.skills}  &nbsp;
-          <a href={project.github}><GitHub style={{fontSize:'large'}} /></a>
+          <a href={project.github}> <a href={project.github} ></a> <GitHub style={{fontSize:'large'}} /></a>
         </p>
         
     </div>
