@@ -8,22 +8,26 @@
   .about {
     width: 100%;
     height: calc(105vh - 100px);
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* background-color: #21325e; */
-    background-color: #101D31;/* 
-    color: #f0f0f0; */
+    background-color: #101D31;
     color: #678983;
   }
-  
+  .about h4{
+    cursor: none;
+    transition: 1s all;
+  }
+  .about h4:hover{
+    letter-spacing: 0.1rem;
+  }
+
   .about h2 {
+    margin-top: -1rem;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
-    /* color: #e9d35b; */
     color: #4ECCA3;
     height: 50px;
     transition: 1s all;

@@ -7,15 +7,16 @@ import { IoLogoNodejs  } from 'react-icons/io'
 import { FaHtml5, FaCss3Alt, FaBootstrap } from 'react-icons/fa'
 import { TbBrandJavascript } from 'react-icons/tb'
 import { RiNpmjsFill } from 'react-icons/ri'
+import Greeting from '../components/Greeting'
 
 
 function Home() {
   return (
     <div className='home'>
       <div className="about">
-
+      <h4> <Greeting/> </h4>
         <h2><Typewriter
-          words={['Hi', 'I am silentCosmo']}
+          words={['Hi',  "I'm SilentCosmo"]}
           loop={true}
           typeSpeed={110}
           deleteSpeed={60}

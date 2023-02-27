@@ -5,13 +5,6 @@ import Portfolio from '../assets/portfolio.png'
 
 export const ProjectList = [
     {
-        name:'OLX Clone',
-        image:"",
-        url:"https://olx.silentcosmo.ml",
-        skills:"JSX, CSS, API, ReactJS, Firebase",
-        github:""
-    },
-    {
         name: "Netflix Clone",
         image: Netflix,
         skills: "JSX, CSS, API, ReactJS",
@@ -41,7 +34,7 @@ export const ProjectList = [
         github:"https://github.com/silentCosmo/Shopping-cart"
     },
     {
-        name: 'First Wesite',
+        name: 'First Website',
         image: Old,
         skills:"HTML, CSS, Bootstrap, Javascript",
         url:"https://old.silentcosmo.ml",

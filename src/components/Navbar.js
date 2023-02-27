@@ -11,12 +11,18 @@ function Navbar() {
     },[location]);
   return (
     <div className='navbar' id={expandNavbar? "open" : "close"}>
+        
         <div className="toggleButton">
+            
             <button onClick={()=>{
                 setExpandNavbar((prev)=>!prev)
             }}><MenuIcon/></button>
         </div>
+
+        
+
         <div className="links">
+                
             <Link to="/">Home</Link>
             <a href="/#skills">Skills</a>
             <Link to="/projects">Projects</Link>
