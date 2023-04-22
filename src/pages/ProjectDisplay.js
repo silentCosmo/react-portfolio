@@ -5,22 +5,22 @@ import '../styles/ProjectDisplay.css'
 import { GitHub } from '@mui/icons-material'
 
 function ProjectDisplay() {
-    const {id} = useParams()
-    const project = ProjectList[id]
+  const { id } = useParams()
+  const project = ProjectList[id]
   return (
     <div className='project'>
-        <h1>{project.name}</h1>
-        <a href={project.url}>
-          <p>click to view project</p>
+      <h1>{project.name}</h1>
+      <a href={project.url}>
+        <p>click to view project</p>
         <img src={project.image} alt="Project_View" className="img" />
-        </a>
-        
-        <p>
-          <b>Skills: </b>
-          {project.skills}  &nbsp;
-          <a href={project.github}> <a href={project.github} ></a> <GitHub style={{fontSize:'large'}} /></a>
-        </p>
-        
+      </a>
+
+      <p>
+        <b>Skills: </b>
+        {project.skills}  &nbsp;
+        <a href={project.github}>  <GitHub style= {{ fontSize: 'large' }} /> </a>
+      </p>
+
     </div>
   )
 }

@@ -2,8 +2,17 @@ import Todo from '../assets/todo.png'
 import Netflix from '../assets/netflix.png'
 import Old from '../assets/old.png'
 import Portfolio from '../assets/portfolio.png'
+import Calc from '../assets/calculator.png'
+import Shop from '../assets/shopsyi.png'
 
 export const ProjectList = [
+    {
+        name: 'Shopsyi',
+        image: Shop,
+        skills: 'React, Redux, Router, Tailwind CSS, Firebase, Firestore',
+        url: 'https://shopsyi.netlify.app/',
+        gitHub: 'https://github.com/silentCosmo/shopsyi'
+    },
     {
         name: "Netflix Clone",
         image: Netflix,
@@ -39,5 +48,12 @@ export const ProjectList = [
         skills:"HTML, CSS, Bootstrap, Javascript",
         url:"https://old.silentcosmo.ml",
         github:"https://github.com/silentCosmo/pSite"
+    },
+    {
+        name: 'Calculator',
+        image: Calc,
+        skills: 'HTML, CSS, jQuery',
+        url: 'http://cosmocalc.ml/',
+        gitHub: 'https://github.com/silentCosmo/calculator'
     }
 ]
