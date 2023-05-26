@@ -18,7 +18,8 @@
   }
   .about h4{
     cursor: none;
-    margin-top: 0px;
+    margin: 0px;
+    margin-bottom: .5rem;
     transition: 1s all;
   }
   .about h4:hover{
@@ -26,11 +27,11 @@
   }
 
   .about h2 {
-    margin-top: -1rem;
+    margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-size: 80px;/* 
+    height: 50px; */
     color: #4ECCA3;
-    height: 50px;
     transition: 1s all;
     cursor: none;
   }
@@ -50,8 +51,9 @@
   }
   .prompt svg {
     font-size: 60px;
-    margin: 5px;
-    color: #b7c4bf;
+    margin: 5px;/* 
+    color: #b7c4bf; */
+    color: #678983;
   }
   .prompt svg:hover {
     color: #c2e7d9;
@@ -84,13 +86,10 @@
     .about h2 {
       font-size: 40px;
     }
-  
     .about .prompt {
-      margin-top: 10px;
       font-size: 20px;
       width: 80%;
     }
-  
     .skills {
       text-align: center;
     }
@@ -126,6 +125,7 @@ ul{
 .skill-text{
   opacity: 0;
   transition: all 0.4s ease;
+  color: #101D31;
 }
 .icons:hover .skill-text{
   opacity: 1;
@@ -133,17 +133,17 @@ ul{
 }
 .icons:hover .ico{
   transform: scale(1.2);
-  color: #2f1446;
+  color: #172944;
 }
-.react{
+#react{
   font-size: 4.2rem;
   transition: all 0.5s ease;
   margin-bottom: 0.5rem;
   animation: rotate 6s linear infinite;
 }
-.react:hover{
+/* #react:hover{
   transform: scale(1.5);
-}
+} */
 
 
 @keyframes rotate{

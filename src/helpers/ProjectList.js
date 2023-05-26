@@ -1,11 +1,20 @@
-import Todo from '../assets/todo.png'
-import Netflix from '../assets/netflix.png'
-import Old from '../assets/old.png'
+import Pocketracker from '../assets/pocketracker.png'
 import Portfolio from '../assets/portfolio.png'
+import Netflix from  '../assets/netflix.png'
 import Calc from '../assets/calculator.png'
+import Seti from '../assets/seticss1.png'
 import Shop from '../assets/shopsyi.png'
+import Todo from '../assets/todo.png'
+import Old from '../assets/old.png'
 
 export const ProjectList = [
+    {
+        name: 'PockeTracker',
+        image: Pocketracker,
+        skills: 'React, Redux, Draggable, Tailwind, LocalStorage',
+        url: 'https://pocketracker.netlify.app',
+        gitHub: 'https://github.com/silentCosmo/pocketracker'
+    },
     {
         name: 'Shopsyi',
         image: Shop,
@@ -41,6 +50,13 @@ export const ProjectList = [
         skills:"NodeJs, MongoDB, Bootstrap, Handlebars, CSS ",
         url:"",
         github:"https://github.com/silentCosmo/Shopping-cart"
+    },
+    {
+        name: 'Responsive CSS',
+        image: Seti,
+        skills: 'HTML, CSS',
+        url: 'https://silentcosmo.github.io/responsive-css',
+        gitHub: 'https://github.com/silentCosmo/responsive_css'
     },
     {
         name: 'First Website',
