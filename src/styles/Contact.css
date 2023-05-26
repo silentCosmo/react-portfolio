@@ -3,17 +3,18 @@
     height: 69vh;
 }
 
-form { max-width:420px; margin:50px auto; }
+form { max-width:400px; margin:20px auto; padding-top: 30px; padding-bottom: 30px; background-color: #101d310a; border-radius: 3px; }
 
 .feedback-input {
   color:#192333;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 20px;
-  border-radius: 5px;
+  border:0;/* 
+  border-radius: 5px;*/
+  border-bottom:2px solid #101D31;
+  background-color: #101d310c;
   line-height: 19px;
-  background-color: transparent;
-  border:2px solid #192333;
   transition: all 0.3s;
   padding: 5px;
   margin-bottom: 15px;
@@ -22,17 +23,19 @@ form { max-width:420px; margin:50px auto; }
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #054439; }
+.feedback-input:focus { border-bottom:2px solid #0b7765; background-color: #101d311a; }
 
 .input-error {
   color:#192333;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
-  font-size: 20px;
-  border-radius: 5px;
+  font-size: 20px;/* 
+  border-radius: 5px; */
   line-height: 19px;
-  background-color: transparent;
-  border:2px solid darkred;
+  background-color: #101d310c;
+  border: 0;
+  border-bottom:2px solid darkred;/* 
+    */
   transition: all 0.3s;
   padding: 5px;
   margin-bottom: 15px;
@@ -40,10 +43,10 @@ form { max-width:420px; margin:50px auto; }
   box-sizing: border-box;
   outline:0;
 }
-.input-error:focus { border:2px solid #d10000; }
+.input-error:focus { border-bottom:2px solid #d10000;}
 
 textarea {
-  height: 100px;
+  height: 80px;
   line-height: 150%;
   resize:vertical;
 }
@@ -51,8 +54,8 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 85%;
-  background:#192333;
-  border-radius:5px;
+  background:#192333;/* 
+  border-radius:1px; */
   border:0;
   cursor:pointer;
   color:#EEEEEE;
@@ -69,7 +72,7 @@ textarea {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 85%;
   background:#192333;
-  border-radius:5px;
+  border-radius:2px;
   border:0;
   cursor:pointer;
   color:#EEEEEE;
