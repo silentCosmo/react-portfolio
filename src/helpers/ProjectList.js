@@ -13,14 +13,14 @@ export const ProjectList = [
         image: Pocketracker,
         skills: 'React, Redux, Draggable, Tailwind, LocalStorage',
         url: 'https://pocketracker.netlify.app',
-        gitHub: 'https://github.com/silentCosmo/pocketracker'
+        gitHub: "https://github.com/silentCosmo/pocketracker"
     },
     {
         name: 'Shopsyi',
         image: Shop,
         skills: 'React, Redux, Router, Tailwind CSS, Firebase, Firestore',
         url: 'https://shopsyi.netlify.app/',
-        gitHub: 'https://github.com/silentCosmo/shopsyi'
+        gitHub: "https://github.com/silentCosmo/shopsyi"
     },
     {
         name: "Netflix Clone",
