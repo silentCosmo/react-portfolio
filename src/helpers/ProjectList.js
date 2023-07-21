@@ -26,14 +26,14 @@ export const ProjectList = [
         name: "Netflix Clone",
         image: Netflix,
         skills: "JSX, CSS, API, ReactJS",
-        url:"https://netflix.silentcosmo.ml",
+        url:"https://cosmoflix.netlify.app",
         github:"https://github.com/silentCosmo/netflix"
     },
     {
         name: "React Portfolio",
         image: Portfolio,
         skills: 'Jsx, CSS, React Router',
-        url: "https://silentcosmo.ml",
+        url: "https://silentcosmo.netlify.app",
         github: "https://github.com/silentcosmo/react-portfolio"
 
     },
@@ -41,7 +41,7 @@ export const ProjectList = [
         name: 'Todo App',
         image: Todo,
         skills: "JSX, CSS, React, Javascript",
-        url:"http://todo.silentcosmo.ml",
+        url:"http://todocosmo.netlify.app",
         github:"https://github.com/silentCosmo/todo"
     },
     {
