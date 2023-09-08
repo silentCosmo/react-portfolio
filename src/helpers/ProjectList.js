@@ -69,7 +69,7 @@ export const ProjectList = [
         name: 'Calculator',
         image: Calc,
         skills: 'HTML, CSS, jQuery',
-        url: 'http://cosmocalc.ml/',
+        url: 'https://silentcosmo.github.io/Calculator/',
         gitHub: 'https://github.com/silentCosmo/calculator'
     }
 ]
