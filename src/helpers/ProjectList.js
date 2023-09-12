@@ -1,5 +1,7 @@
 import Pocketracker from '../assets/pocketracker.png'
+import Shishiram from '../assets/shishiram4.png'
 import Portfolio from '../assets/portfolio.png'
+import Movieapp from '../assets/movieapp.png' 
 import Netflix from  '../assets/netflix.png'
 import Calc from '../assets/calculator.png'
 import Seti from '../assets/seticss1.png'
@@ -14,6 +16,13 @@ export const ProjectList = [
         skills: 'React, Redux, Draggable, Tailwind, LocalStorage',
         url: 'https://pocketracker.netlify.app',
         gitHub: "https://github.com/silentCosmo/pocketracker"
+    },
+    {
+        name: 'PockeTracker',
+        image: Shishiram,
+        skills: 'React, Redux, Glassmorphism, Firebase, Google Auth, Realtime Database, Tailwind',
+        url: 'https://shishiram.netlify.app',
+        gitHub: "https://github.com/silentCosmo/shishiram"
     },
     {
         name: 'Shopsyi',
@@ -35,7 +44,14 @@ export const ProjectList = [
         skills: 'Jsx, CSS, React Router',
         url: "https://silentcosmo.netlify.app",
         github: "https://github.com/silentcosmo/react-portfolio"
-
+        
+    },
+    {
+        name: 'Movie Booking',
+        image: Movieapp,
+        skills: 'React, Redux, API, Tailwind',
+        url: 'https://movieapp-testapi.netlify.app',
+        gitHub: "https://github.com/silentCosmo/api-movie"
     },
     {
         name: 'Todo App',
@@ -46,9 +62,9 @@ export const ProjectList = [
     },
     {
         name: 'Shoping Cart',
-        image:"",
-        skills:"NodeJs, MongoDB, Bootstrap, Handlebars, CSS ",
-        url:"",
+        image:"https://soshace.com/wp-content/uploads/2019/12/nodejs-architecture.jpg",
+        skills:"NodeJs, MongoDB, Bootstrap, Handlebars, JSX, CSS ",
+        url:"Run the code on your localhost",
         github:"https://github.com/silentCosmo/Shopping-cart"
     },
     {
