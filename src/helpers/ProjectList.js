@@ -18,7 +18,7 @@ export const ProjectList = [
         gitHub: "https://github.com/silentCosmo/pocketracker"
     },
     {
-        name: 'PockeTracker',
+        name: 'Blog App',
         image: Shishiram,
         skills: 'React, Redux, Glassmorphism, Firebase, Google Auth, Realtime Database, Tailwind',
         url: 'https://shishiram.netlify.app',
@@ -64,7 +64,7 @@ export const ProjectList = [
         name: 'Shoping Cart',
         image:"https://soshace.com/wp-content/uploads/2019/12/nodejs-architecture.jpg",
         skills:"NodeJs, MongoDB, Bootstrap, Handlebars, JSX, CSS ",
-        url:"Run the code on your localhost",
+        url:"https://github.com/silentCosmo/Shopping-cart",
         github:"https://github.com/silentCosmo/Shopping-cart"
     },
     {
