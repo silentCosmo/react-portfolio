@@ -33,6 +33,8 @@
   .project p {
     font-size: 25px;
     color: #192333;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   
   .project svg {

@@ -42,7 +42,8 @@
   }
   
   .toggleButton svg {
-    font-size: 50px;
+    font-size: 50px;/* 
+    transform: rotate(90deg); */
   }
   .toggleButton button {
     margin-right: 20px;
@@ -54,17 +55,40 @@
   
   #open {
     height: 100vh;
+    transition: height 1.4s ease;
   }
+  #open .toggleButton button{
+    transition: transform 1s;
+    transform: rotate(90deg);
+  }
+  
   
   #open .links {
     flex-direction: column;
     justify-content: flex-start;
+    transition:  1.2s ease;
     margin-top: 100px;
   }
   
   #open a {
     width: 100%;
     text-align: center;
+  }
+  
+  #close{
+      transition: height 0.7s ease;
+    }
+  
+  #close .links{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    transition: 0.9s ease;
+    }
+    
+  #close .toggleButton button{
+    transition: transform 0.5s;
+    transform: rotate(180deg);
   }
   
   @media only screen and (max-width: 900px) {
@@ -78,7 +102,10 @@
       display: flex;
     }
     #close a {
-      display: none;
+      /* display: none; */
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.5s ease;
     }
   }
   
