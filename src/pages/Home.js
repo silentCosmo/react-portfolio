@@ -1,5 +1,5 @@
 import '../styles/Home.css'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import { Typewriter } from 'react-simple-typewriter'
 import { SiFirebase, SiMongodb, SiExpress, SiReact, SiMaterialui, SiTailwindcss, SiRedux } from 'react-icons/si'
@@ -11,6 +11,16 @@ import Greeting from '../components/Greeting'
 
 
 function Home() {
+  const [animateSkills, setAnimateSkills] = useState(false);
+
+  useEffect(() => {
+    // Set animateSkills to true after a delay (adjust the delay as needed)
+    const timer = setTimeout(() => {
+      setAnimateSkills(true);
+    }, 500);
+
+    return () => clearTimeout(timer); // Clear the timeout on component cleanup
+  }, []);
   return (
     <div className='home'>
       <div className="about">
@@ -28,7 +38,7 @@ function Home() {
           <a href="https://github.com/silentcosmo"><GitHubIcon /></a>
         </div>
       </div>
-      <div className="skills" id='skills'>
+      <div className={`skills ${animateSkills ? 'animate' : ''}`} id='skills'>
         <h1>Skills</h1>
         <ul className="li">
           <li className="item">
@@ -37,7 +47,7 @@ function Home() {
             <span>
 
               <div className="skill-container">
-
+ 
                 <div className="icons"> <FaHtml5 className='ico' /> <br /> <span className="skill-text">HTML</span> </div>
                 <div className="icons"> <TbBrandJavascript className='ico' /> <br /> <span className="skill-text">JSX</span> </div>
                 <div className="icons"> <SiTailwindcss className='ico' /> <br /> <span className="skill-text">Tailwind</span> </div>

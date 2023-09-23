@@ -82,7 +82,6 @@
   #close .links{
     display: block;
     display: flex;
-    flex-direction: column;
     transition: 0.9s ease;
     }
     
