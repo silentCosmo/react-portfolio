@@ -1,6 +1,6 @@
 .contact-page{
     color: #192333;
-    height: 69vh;
+    height: 70vh;
 }
 
 form { max-width:400px; margin:20px auto; padding-top: 30px; padding-bottom: 30px; background-color: #101d310a; border-radius: 3px; }
@@ -13,7 +13,7 @@ form { max-width:400px; margin:20px auto; padding-top: 30px; padding-bottom: 30p
   border:0;/* 
   border-radius: 5px;*/
   border-bottom:2px solid #101D31;
-  background-color: #101d310c;
+  background-color: #101d3100;
   line-height: 19px;
   transition: all 0.3s;
   padding: 5px;
@@ -23,7 +23,7 @@ form { max-width:400px; margin:20px auto; padding-top: 30px; padding-bottom: 30p
   outline:0;
 }
 
-.feedback-input:focus { border-bottom:2px solid #0b7765; background-color: #101d311a; }
+.feedback-input:focus { border-bottom:2px solid #0b7765; background-color: #101d3109; }
 
 .input-error {
   color:#192333;
@@ -89,7 +89,7 @@ textarea {
 .submit-err:hover { background:#054439; }
 
 .mail-error{
-  margin-top: -0.5rem;
+  margin-top: -0.1rem;
   color: darkred;
   font-weight: 600;
 }

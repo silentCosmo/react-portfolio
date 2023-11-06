@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    height: 150px;
+    height: 15vh;
     background: #101D31;
     display: flex;
     justify-content: center;
@@ -22,6 +22,7 @@
   
   .footer p {
     color: #b7c4bf;
+    letter-spacing: 0.1em;
   }
   
   @media only screen and (max-width: 600px) {

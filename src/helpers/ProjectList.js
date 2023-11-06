@@ -15,21 +15,21 @@ export const ProjectList = [
         image: Pocketracker,
         skills: 'React, Redux, Draggable, Tailwind, LocalStorage',
         url: 'https://pocketracker.netlify.app',
-        gitHub: "https://github.com/silentCosmo/pocketracker"
+        github: "https://github.com/silentCosmo/pocketracker"
     },
     {
         name: 'Blog App',
         image: Shishiram,
         skills: 'React, Redux, Glassmorphism, Firebase, Google Auth, Realtime Database, Tailwind',
         url: 'https://shishiram.netlify.app',
-        gitHub: "https://github.com/silentCosmo/shishiram"
+        github: "https://github.com/silentCosmo/shishiram"
     },
     {
         name: 'Shopsyi',
         image: Shop,
         skills: 'React, Redux, Router, Tailwind CSS, Firebase, Firestore',
         url: 'https://shopsyi.netlify.app/',
-        gitHub: "https://github.com/silentCosmo/shopsyi"
+        github: "https://github.com/silentCosmo/shopsyi"
     },
     {
         name: "Netflix Clone",

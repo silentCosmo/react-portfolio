@@ -1,6 +1,7 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 200px); */
+    height: 70vmax;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +22,7 @@
   .project h1 {
     margin-top: 20px;
     margin-bottom: 5px;
-    color: #192333;
+    color: #213452;
     font-size: 35px;
   }
   .project img {
@@ -40,6 +41,31 @@
   .project svg {
     font-size: 60px;
     color: #192333;
+  }
+  p > a {
+    color: hotpink;
+    margin-top: 50px;
+  }
+  .pvskill{
+    margin-bottom: 0;
+  }
+  #pvst{
+    font-size: large;
+  }
+
+  .blink{
+    animation: blink-1 3s infinite both;
+  }
+  @keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
   }
 
   @media only screen and (max-width: 800px) {
