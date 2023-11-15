@@ -3,10 +3,13 @@ import React, { useEffect, useState } from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import { Typewriter } from 'react-simple-typewriter'
 import { SiFirebase, SiMongodb, SiExpress, SiReact, SiMaterialui, SiTailwindcss, SiRedux } from 'react-icons/si'
-import { IoLogoNodejs  } from 'react-icons/io'
 import { FaHtml5, FaCss3Alt, FaBootstrap } from 'react-icons/fa'
 import { TbBrandJavascript } from 'react-icons/tb'
+import { SiAdobephotoshop } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { IoLogoNodejs  } from 'react-icons/io'
 import { RiNpmjsFill } from 'react-icons/ri'
+import { CgFigma } from "react-icons/cg";
 import Greeting from '../components/Greeting'
 
 
@@ -50,11 +53,13 @@ function Home() {
  
                 <div className="icons"> <FaHtml5 className='ico' /> <br /> <span className="skill-text">HTML</span> </div>
                 <div className="icons"> <TbBrandJavascript className='ico' /> <br /> <span className="skill-text">JSX</span> </div>
-                <div className="icons"> <SiTailwindcss className='ico' /> <br /> <span className="skill-text">Tailwind</span> </div>
                 <div className="icons"> <FaBootstrap className='ico' /> <br /> <span className="skill-text">Bootstrap</span> </div>
+                <div className="icons"> <SiTailwindcss className='ico' /> <br /> <span className="skill-text">Tailwind</span> </div>
+                <div className="icons"> <SiAdobephotoshop className='ps' /> <br /> <span className="skill-text">Photoshop</span> </div>
                 <div className="icons"> <SiReact className='ico' id='react' /> <br /> <span className="skill-text">React</span>  </div>
-                <div className="icons"> <RiNpmjsFill className='ico' /> <br /> <span className="skill-text">NPM</span> </div>
+                <div className="icons"> <RiNpmjsFill className='ico' /> <br /> <span className="skill-text">&nbsp; &nbsp; NPM &nbsp; &nbsp;</span> </div>
                 <div className="icons"> <SiRedux className='ico' /> <br /> <span className="skill-text">Redux</span> </div>
+                <div className="icons"> <CgFigma className='ico' />  <br /> <span className="skill-text">Figma</span> </div>
                 <div className="icons"> <SiMaterialui className='ico' />  <br /> <span className="skill-text">MaterialUI</span> </div>
                 <div className="icons"> <FaCss3Alt className='ico' />  <br /> <span className="skill-text">CSS</span> </div>
 
@@ -71,7 +76,8 @@ function Home() {
               <div className="skill-container">
 
                 <div className="icons"> <SiFirebase className='ico' /> <br /> <span className="skill-text">Firebase</span> </div>
-                <div className="icons"> <IoLogoNodejs className='ico' /> <br /> <span className="skill-text">NodeJS</span>  </div>
+                <div className="icons"> <IoLogoNodejs className='ico' /> <br /> <span className="skill-text">&nbsp; NodeJS &nbsp; &nbsp;</span>  </div>
+                <div className="icons"> <TbBrandNextjs className='ico' id='react' /> <br /> <span className="skill-text">NextJS</span>  </div>
                 <div className="icons"> <SiExpress className='ico' /> <br /> <span className="skill-text">ExpressJS</span> </div>
                 <div className="icons"> <SiMongodb className='ico' />  <br /> <span className="skill-text">MongoDB</span> </div>
 
