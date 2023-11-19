@@ -55,7 +55,7 @@ function Home() {
                 <div className="icons"> <TbBrandJavascript className='ico' /> <br /> <span className="skill-text">JSX</span> </div>
                 <div className="icons"> <FaBootstrap className='ico' /> <br /> <span className="skill-text">Bootstrap</span> </div>
                 <div className="icons"> <SiTailwindcss className='ico' /> <br /> <span className="skill-text">Tailwind</span> </div>
-                <div className="icons"> <SiAdobephotoshop className='ps' /> <br /> <span className="skill-text">Photoshop</span> </div>
+                <div className="icons"> <SiAdobephotoshop className='ico' id='ps' /> <br /> <span className="skill-text">Photoshop</span> </div>
                 <div className="icons"> <SiReact className='ico' id='react' /> <br /> <span className="skill-text">React</span>  </div>
                 <div className="icons"> <RiNpmjsFill className='ico' /> <br /> <span className="skill-text">&nbsp; &nbsp; NPM &nbsp; &nbsp;</span> </div>
                 <div className="icons"> <SiRedux className='ico' /> <br /> <span className="skill-text">Redux</span> </div>

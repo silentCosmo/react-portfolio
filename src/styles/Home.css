@@ -137,7 +137,7 @@ ul{
   transition: all 0.5s;
   margin-bottom: 0.5rem;
 }
-.ps{
+#ps{ 
   font-size: 3.3rem;
   transition: all 0.5s;
   margin-bottom: 0.4rem;
@@ -153,6 +153,10 @@ ul{
 
 }
 .icons:hover .ico{
+  transform: scale(1.2);
+  color: #172944;
+}
+.icons:hover .ps{
   transform: scale(1.2);
   color: #172944;
 }
