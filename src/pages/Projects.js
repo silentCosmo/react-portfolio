@@ -11,7 +11,7 @@ function Projects() {
         {
           ProjectList.map((project,index)=>{
             return(
-              <Projectitem id={index} name = {project.name} image={project.image} url={project.url} />
+              <Projectitem id={index+1} name = {project.name} image={project.image} url={project.url} />
             )
           })
         }

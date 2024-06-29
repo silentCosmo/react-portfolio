@@ -1,10 +1,9 @@
 .project {
     width: 100%;
     /* height: calc(100vh - 200px); */
-    height: 70vmax;
+    min-height: 75vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
   }
   a{
@@ -20,9 +19,9 @@
   }
   
   .project h1 {
-    margin-top: 20px;
+    margin-top: 4rem;
     margin-bottom: 5px;
-    color: #213452;
+    color: #101D31;
     font-size: 35px;
   }
   .project img {
@@ -32,10 +31,11 @@
   }
   
   .project p {
-    font-size: 25px;
+    font-size: larger;
     color: #192333;
     padding-left: 2%;
     padding-right: 2%;
+    line-height: 2.3rem;
   }
   
   .project svg {
@@ -48,6 +48,20 @@
   }
   .pvskill{
     margin-bottom: 0;
+  }
+  .description{
+    width: 60%;
+    display: flex;
+    margin-inline: auto;
+    justify-content: right;
+    border-top: 1px solid #101d3157;
+    margin-top: 2rem;
+  }
+  .description p {
+    text-align: left;
+    line-height: 2.5rem;
+    font-size: large;
+    color: black;
   }
   #pvst{
     font-size: large;
@@ -71,5 +85,15 @@
   @media only screen and (max-width: 800px) {
     .project img {
       width: 23rem;
+    }
+    .project h3{
+      padding-inline: 1rem;
+    }
+    .description {
+      width: 90%;
+      margin-inline: 1.5rem;
+    }
+    .description p{
+      font-size: medium;
     }
   }

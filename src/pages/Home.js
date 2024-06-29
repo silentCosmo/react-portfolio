@@ -37,7 +37,7 @@ function Home() {
           cursor={true}
         /></h2>
         <div className="prompt">
-          <p> A full-stack developer, passionate about building web applications that solve problems and enhance the user experience.</p>
+          <p> A full-stack developer passionate about building web applications that solve problems and enhance the user experience.</p>
           <a href="https://github.com/silentcosmo"><GitHubIcon /></a>
         </div>
       </div>

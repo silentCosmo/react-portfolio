@@ -3,9 +3,8 @@
     height: 5.5rem;/* 
     background: #21325e;*/ 
     background: #101D31;
-    
   }
-
+  
   .greet{
     color: yellow;
   }
@@ -31,14 +30,14 @@
   .navbar a:hover{
     color: #ffffff;
   }
-  
-  
+
   .toggleButton {
     width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: -1rem;
   }
   
   .toggleButton svg {

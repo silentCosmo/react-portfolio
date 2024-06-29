@@ -6,21 +6,28 @@ import { GitHub } from '@mui/icons-material'
 
 function ProjectDisplay() {
   const { id } = useParams()
-  const project = ProjectList[id]
+  const project = ProjectList[id-1]
   return (
     <div className='project'>
       <h1>{project.name}</h1>
       <a href={project.url}>
-        <p className='blink'>click to view project</p>
+        <p className='blink'>click to explore project</p>
         <img src={project.image} alt="Project_View" className="img" />
       </a>
 
-      <p className='pvskill'>
-        <b>Skills: </b>
-        {project.skills}  &nbsp; 
-      </p>
+      <h3 className='pvskill'>
+        <b>Tools : </b>
+        {project.skills}  &nbsp;
+      </h3>
+
+      {project.description ?
+        <div className='description'>
+          <p> {project.description}  &nbsp; </p>
+        </div> : ''}
+
+
       <p className='icons'>
-        <a href={project.github}><GitHub style= {{ fontSize: '50' }} /> </a>
+        <a href={project.github}><GitHub style={{ fontSize: '50' }} /> </a>
         <br />
         <span className='skill-text' id='pvst'>View Git Repository</span>
       </p>
