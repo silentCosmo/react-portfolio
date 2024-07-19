@@ -1,15 +1,16 @@
 import '../styles/Home.css'
 import React, { useEffect, useState } from 'react'
-import GitHubIcon from '@mui/icons-material/GitHub'
-import { Typewriter } from 'react-simple-typewriter'
 import { SiFirebase, SiMongodb, SiExpress, SiReact, SiMaterialui, SiTailwindcss, SiRedux } from 'react-icons/si'
+import { SiAdobephotoshop, SiPhp, SiNextdotjs } from "react-icons/si"
 import { FaHtml5, FaCss3Alt, FaBootstrap } from 'react-icons/fa'
+import { Typewriter } from 'react-simple-typewriter'
+import GitHubIcon from '@mui/icons-material/GitHub'
 import { TbBrandJavascript } from 'react-icons/tb'
-import { SiAdobephotoshop } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
 import { IoLogoNodejs  } from 'react-icons/io'
 import { RiNpmjsFill } from 'react-icons/ri'
 import { CgFigma } from "react-icons/cg";
+
+import { GrMysql } from "react-icons/gr"
 import Greeting from '../components/Greeting'
 
 
@@ -74,11 +75,13 @@ function Home() {
             <span>
 
               <div className="skill-container">
-
+              
                 <div className="icons"> <SiFirebase className='ico' /> <br /> <span className="skill-text">Firebase</span> </div>
+                <div className="icons"> <SiPhp className='ico' /> <br /> <span className="skill-text">PHP</span> </div>
                 <div className="icons"> <IoLogoNodejs className='ico' /> <br /> <span className="skill-text">&nbsp; NodeJS &nbsp; &nbsp;</span>  </div>
-                <div className="icons"> <TbBrandNextjs className='ico' id='react' /> <br /> <span className="skill-text">NextJS</span>  </div>
+                <div className="icons"> <SiNextdotjs className='ico' id='react' /> <br /> <span className="skill-text">NextJS</span>  </div>
                 <div className="icons"> <SiExpress className='ico' /> <br /> <span className="skill-text">ExpressJS</span> </div>
+                <div className="icons"> <GrMysql className='ico' />  <br /> <span className="skill-text">MySQL</span> </div>
                 <div className="icons"> <SiMongodb className='ico' />  <br /> <span className="skill-text">MongoDB</span> </div>
 
               </div>
