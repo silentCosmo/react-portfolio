@@ -32,7 +32,7 @@ export const ProjectList = [
         name: 'Blog App',
         image: Shishiram,
         skills: 'React, Redux, Glassmorphism, Firebase, Google Auth, Realtime Database, Tailwind',
-        url: 'https://shishiram.netlify.app',
+        url: 'https://winternib.vercel.app',
         github: "https://github.com/silentCosmo/shishiram"
     },
     {
