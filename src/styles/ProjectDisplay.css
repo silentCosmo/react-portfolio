@@ -53,7 +53,7 @@
     width: 60%;
     display: flex;
     margin-inline: auto;
-    justify-content: right;
+    justify-content: center;
     border-top: 1px solid #101d3157;
     margin-top: 2rem;
   }
