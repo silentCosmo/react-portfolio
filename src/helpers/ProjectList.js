@@ -4,6 +4,7 @@ import Portfolio from '../assets/portfolio.png'
 import NovaFrame from '../assets/novaframe.png'
 import Movieapp from '../assets/movieapp.png'
 import Netflix from '../assets/netflix.png'
+import YouTube from '../assets/youtube.png'
 import Calc from '../assets/calculator.png'
 import Seti from '../assets/seticss1.png'
 import Shop from '../assets/shopsyi.png'
@@ -11,6 +12,14 @@ import Todo from '../assets/todo.png'
 import Old from '../assets/old.png'
 
 export const ProjectList = [
+    {
+        name: 'Youtube Clone',
+        image: YouTube,
+        skills: 'Nodejs, React, Firebase Store, Backend, API Endpoints',
+        url: 'https://youtubewa.vercel.app',
+        github: "https://github.com/silentCosmo/youtube",
+        description: `It's a clone of youtube webapp with signup,channel creation, upload, delete, comment, edit and more.`
+    },
     {
         name: 'NovaFrame',
         image: NovaFrame,
