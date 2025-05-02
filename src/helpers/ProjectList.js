@@ -13,6 +13,7 @@ import Cyber from '../assets/cyber.png'
 import Sevana from '../assets/sevana.png'
 import Space from '../assets/space.png'
 import Soque from '../assets/soque.png'
+import Bizco from '../assets/bizco.png'
 import Shop from '../assets/shopsyi.png'
 import Todo from '../assets/todo.png'
 import Old from '../assets/old.png'
@@ -22,10 +23,10 @@ export const ProjectList = [
     {
         name: 'Quantum Leads',
         image: Qleads,
-        skills: 'Next.js',
+        skills: 'Next.js, formSubmit',
         url: 'https://quantumleads.in/',
         github: "https://github.com/integraliQ/leads",
-        description: `Website for an advertising company.`
+        description: `Website for a advertising company.`
     },
     {
         name: 'IntegraliQ',
@@ -38,10 +39,18 @@ export const ProjectList = [
     {
         name: 'Cyber Secqube',
         image: Cyber,
-        skills: 'Next.js',
+        skills: 'Next.js, formSubmit',
         url: 'https://cybersecqube.com/',
         github: "https://github.com/integraliQ/secqube",
-        description: `Website for an Education institution.`
+        description: `Website for a Education institution.`
+    },
+    {
+        name: 'BizConsult',
+        image: Bizco,
+        skills: 'Next.js, formSubmit',
+        url: 'https://thebizconsultant.in',
+        github: "https://github.com/integraliQ/bizconsult",
+        description: `Website for a Business Consultancy.`
     },
     {
         name: 'iiQ Space',
