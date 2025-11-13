@@ -8,6 +8,7 @@ import YouTube from '../assets/youtube.png'
 import Calc from '../assets/calculator.png'
 import Qleads from '../assets/qleads.png'
 import Seti from '../assets/seticss1.png'
+import Whisplay from '../assets/whisplay.png'
 import Helbeku from '../assets/helbeku.png'
 import Cyber from '../assets/cyber.png'
 import Sevana from '../assets/sevana.png'
@@ -20,6 +21,14 @@ import Old from '../assets/old.png'
 import Iiq from '../assets/iiq.png'
 
 export const ProjectList = [
+        {
+        name: 'Whisplay',
+        image: Whisplay,
+        skills: 'Next.js, PWA, Music Player, UI/UX Design, Audio Visualizers, Google Drive as CDN',
+        url: 'https://whisplay.vercel.app',
+        github: 'https://github.com/silentCosmo/whisplay',
+        description: `Whisplay is a sleek and modern music streaming app featuring 10 dynamic audio visualizers, playlist, queue system, shuffle and repeat modes, and smooth UI transitions. Designed for an immersive and intuitive experience, Whisplay blends stunning visuals with seamless performance in a fully responsive PWA.`
+    },
     {
         name: 'Quantum Leads',
         image: Qleads,
