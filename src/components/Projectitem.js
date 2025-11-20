@@ -7,7 +7,7 @@ function Projectitem({image,name,url,id}) {
   return (
     <div className="projectItem" >
         <div style={{backgroundImage: `url(${image})`}} className="proImg" onClick={()=>{navigate("/projects/"+id)}} /> 
-         <a href={url} target='_blank' rel="noreferrer" ><h2 className=''>{name}</h2></a>
+         <a href={"/projects/"+id} target='_blank' rel="noreferrer" ><h2 className=''>{name}</h2></a>
        
         
              
